@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this MATLAB software in your research, please cite the software release (preferably its DOI)."
+type: software
+title: "FTN-RRC Turbo Equalization (MATLAB)"
+authors:
+  - family-names: "Ebrahimi"
+    given-names: "Sadeq"
+version: "0.1.0"
+repository-code: "https://github.com/SadeqEbrahimiLive/FTN-RRC-Turbo-Equalization"
+abstract: >-
+  MATLAB faster-than-Nyquist simulation with root-raised-cosine pulse shaping,
+  equivalent Forney-factor ISI channel, reduced-memory M-ary BCJR equalization,
+  iterative convolutional BCJR decoding, spectral diagnostics, and BER estimation.
+keywords:
+  - faster-than-Nyquist signaling
+  - root-raised-cosine pulse shaping
+  - turbo equalization
+  - BCJR
+  - MATLAB
+license: MIT
