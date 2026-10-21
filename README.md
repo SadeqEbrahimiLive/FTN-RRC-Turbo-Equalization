@@ -159,35 +159,9 @@ For SNR points with **zero observed final-iteration errors**, the BER plot displ
 
 **If you use or extend this software in a paper, please cite the repository or, preferably, its DOI-archived release.** The root-level [`CITATION.cff`](CITATION.cff) is configured to make GitHub show **Cite this repository** after it is pushed.
 
-Before making the repository public, replace all `REPLACE_WITH_...` metadata with the **actual contributor name(s) and GitHub account**. If a peer-reviewed paper describes this software, you can additionally cite the paper and/or set a `preferred-citation` in `CITATION.cff`.
-
-For a **persistent DOI**:
-
-1. Publish this repository on GitHub as a public repository.
-2. Link GitHub with [Zenodo](https://zenodo.org/) and **enable this repository in Zenodo**.
-3. Create a **new GitHub release** (e.g., `v0.1.0`) *after* enabling the repository. Zenodo then archives the release and issues a DOI.
-4. Add the real DOI to `CITATION.cff` (and update the version/release date as appropriate). Use the DOI when citing the archived version.
-
-Do not add a made-up DOI: it must be assigned by an archival service.
-
-## Publishing on GitHub
-
-A GitHub account owner can create a public repository at [github.com/new](https://github.com/new) named, for example, `FTN-RRC-Turbo-Equalization`. Upload the **contents of this folder** (not the ZIP file itself), with `README.md` and `CITATION.cff` at the repository root. Or, inside this folder, run:
-
-```bash
-git init
-git add .
-git commit -m "Initial release: FTN RRC turbo equalization"
-git branch -M main
-git remote add origin https://github.com/SadeqEbrahimiLive/FTN-RRC-Turbo-Equalization.git
-git push -u origin main
-```
-
-Create the empty repository on GitHub before `git push`. Replace `SadeqEbrahimiLive` and review the license/citation metadata first.
-
 ## License
 
-A proposed **MIT** license is included for broad software reuse. **Before publishing, change `[YOUR LEGAL NAME OR ORGANIZATION]` in `LICENSE` to the true copyright holder(s), confirm that you have rights to license all included code, and decide whether MIT fits your intentions.** MIT asks redistributors to preserve the license/copyright notice; it does **not** make academic citation a legal condition. `CITATION.cff` and the request above facilitate scholarly attribution.
+A proposed **MIT** license is included for broad software reuse. **Before publishing, change `Sadeq Ebrahimi` in `LICENSE` to the true copyright holder(s), confirm that you have rights to license all included code, and decide whether MIT fits your intentions.** MIT asks redistributors to preserve the license/copyright notice; it does **not** make academic citation a legal condition. `CITATION.cff` and the request above facilitate scholarly attribution.
 
 ## Feedback / contributions
 
